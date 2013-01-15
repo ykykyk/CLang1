@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+void main(void) {
+	int i;
+	printf("åJÇËï‘ÇµÅ@Ç±Ç±Ç©ÇÁ\n");
+	i = 1;
+	while (i <= 3) {
+		printf("åJÇËï‘Çµ%dâÒñ⁄\n", i);
+		i = i + 1;
+	}
+	printf("åJÇËï‘ÇµÅ@Ç±Ç±Ç‹Ç≈\n\n");
+
+	printf("åJÇËï‘ÇµÅ@Ç±Ç±Ç©ÇÁ\n");
+	i = 3;
+	while (i) {
+		printf("åJÇËï‘Çµ%dâÒñ⁄\n", i);
+		i--;
+	}
+	printf("åJÇËï‘ÇµÅ@Ç±Ç±Ç‹Ç≈\n\n");
+
+	printf("åJÇËï‘ÇµÅ@Ç±Ç±Ç©ÇÁ\n");
+	i = 1;
+	do {
+		printf("åJÇËï‘Çµ%dâÒñ⁄\n", i);
+		i = i + 1;
+	} while (i <= 3);
+	printf("åJÇËï‘ÇµÅ@Ç±Ç±Ç‹Ç≈\n\n");
+
+}
